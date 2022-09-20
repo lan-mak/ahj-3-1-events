@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/810nw6w704rdngug?svg=true)](https://ci.appveyor.com/project/lan-mak/ahj-3-1-events)
+
+GitHub pages: https://lan-mak.github.io/ahj-3-1-events/
+
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ нужно использовать менеджер пакетов yarn (а значит, никакого `package-lock.json` в репозитории быть не должно)
