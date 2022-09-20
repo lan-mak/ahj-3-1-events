@@ -1,4 +1,5 @@
 import imgGoblin from '../img/pic/goblin.png';
+import hammer from '../img/pic/hammer.png';
 
 export default class Game {
   constructor(size = 4) {
@@ -52,9 +53,15 @@ export default class Game {
     }, 1000);
   }
 
+  cursor() {
+    const ariaGame = document.querySelector('.table');
+    ariaGame.style.cursor = `url('${hammer}'), auto`;
+  }
+
   newGame() {
     this.generateGameBoard();
+    this.cursor();
     this.randomPosition();
-    // this.randomCellGoblin();
+    this.randomCellGoblin();
   }
 }

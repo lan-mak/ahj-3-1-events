@@ -8,9 +8,9 @@ game.newGame();
 
 document.addEventListener('click', (e) => {
   if (e.target.tagName.toLowerCase() === 'img' || e.target.children.length === 1) {
-    logic.countClick += 1;
-    logic.checkClick();
+    logic.catchClick += 1;
   } else {
-    console.log('промах');
+    logic.checkClick();
+    logic.missClick += 1;
   }
 });
