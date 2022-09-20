@@ -55,6 +55,6 @@ export default class Game {
   newGame() {
     this.generateGameBoard();
     this.randomPosition();
-    this.randomCellGoblin();
+    // this.randomCellGoblin();
   }
 }
